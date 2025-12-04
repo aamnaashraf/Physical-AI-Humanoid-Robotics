@@ -13,15 +13,15 @@ const config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://ameen-alam.github.io',
+  url: '',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/Physical-AI-Humanoid-Robotics-Textbook/',
+  baseUrl: '/Physical-AI-Humanoid-Robotics/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'ameen-alam', // Usually your GitHub org/user name.
-  projectName: 'Physical-AI-Humanoid-Robotics-Textbook', // Usually your repo name.
+  organizationName: 'Aamna-Asraf', // Usually your GitHub org/user name.
+  projectName: 'Physical-AI-Humanoid-Robotics', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'throw',
@@ -44,7 +44,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/ameen-alam/Physical-AI-Humanoid-Robotics-Textbook/tree/main/',
+            '',
         },
         blog: false, // Disable blog for textbook
         theme: {
@@ -78,11 +78,7 @@ const config = {
             position: 'left',
             label: 'Textbook',
           },
-          {
-            href: 'https://github.com/ameen-alam/Physical-AI-Humanoid-Robotics-Textbook',
-            label: 'GitHub',
-            position: 'right',
-          },
+          
         ],
       },
       footer: {
@@ -115,11 +111,11 @@ const config = {
             items: [
               {
                 label: 'GitHub',
-                href: 'https://github.com/ameen-alam/Physical-AI-Humanoid-Robotics-Textbook',
+                href: 'https://github.com/aamnaashraf',
               },
               {
                 label: 'Project Constitution',
-                href: 'https://github.com/ameen-alam/Physical-AI-Humanoid-Robotics-Textbook/blob/main/.specify/memory/constitution.md',
+                href: 'https://github.com/aamnaashraf',
               },
             ],
           },

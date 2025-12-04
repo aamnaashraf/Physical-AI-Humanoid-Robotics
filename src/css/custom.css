@@ -5,6 +5,21 @@
  */
 
 /* You can override the default Infima variables here. */
+
+/* Hero background for light and dark mode */
+.hero.hero--primary {
+  background-color: var(--ifm-hero-background, var(--ifm-color-primary));
+}
+
+:root {
+  --ifm-hero-background: #407b83; /* light mode hero background */
+}
+
+[data-theme='dark'] {
+  --ifm-hero-background: #0a6d5c; /* dark mode hero background */
+}
+
+
 :root {
   --ifm-color-primary: #2e8555;
   --ifm-color-primary-dark: #29784c;
@@ -37,6 +52,12 @@
   transition: all 0.3s ease;
   height: 100%;
 }
+/* Dark mode for module cards */
+[data-theme='dark'] .module-card {
+  border-color: var(--ifm-color-emphasis-500);
+  background-color: var(--ifm-color-emphasis-100);
+}
+
 
 .module-card:hover {
   border-color: var(--ifm-color-primary);
@@ -90,6 +111,12 @@
   border: 1px solid var(--ifm-color-emphasis-300);
   background-color: var(--ifm-background-surface-color);
 }
+/* Dark mode for quick links sidebar */
+[data-theme='dark'] .quick-links-sidebar {
+  background-color: var(--ifm-color-emphasis-100);
+  border-color: var(--ifm-color-emphasis-500);
+}
+
 
 .quick-links-sidebar h3 {
   margin-top: 0;
@@ -117,6 +144,13 @@
 }
 
 /* Recent updates section */
+
+/* Dark mode for recent updates */
+[data-theme='dark'] .update-item {
+  background-color: var(--ifm-color-emphasis-100);
+  border-left-color: var(--ifm-color-primary-light);
+}
+
 .recent-updates {
   margin-top: 2rem;
 }
