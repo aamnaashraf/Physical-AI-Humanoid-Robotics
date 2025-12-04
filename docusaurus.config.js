@@ -9,7 +9,7 @@ const config = {
 
   // Production URL (your GitHub Pages)
   url: 'https://aamnaashraf.github.io',
-  baseUrl: '/Physical-AI-Humanoid-Robotics/',
+  baseUrl: '/',
 
   // GitHub pages deployment config
   organizationName: 'aamnaashraf',
