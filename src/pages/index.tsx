@@ -5,8 +5,8 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import ModuleCard from '@site/src/components/ModuleCard';
 import QuickLinks from '@site/src/components/QuickLinks';
+import InteractiveSection from '@site/src/components/InteractiveSection';
 import RecentUpdates from '@site/src/components/RecentUpdates';
-
 import modules from '@site/src/data/modules.json';
 
 export default function Home(): JSX.Element {
@@ -92,6 +92,10 @@ export default function Home(): JSX.Element {
             </div>
           </div>
           <RecentUpdates />
+        </div>
+
+        <div>
+          <InteractiveSection />
         </div>
       </main>
     </Layout>
