@@ -24,19 +24,61 @@ export default function Home(): JSX.Element {
             <Link
               className="button button--secondary button--lg"
               to="/docs/intro">
-              Start Learning →
+              Start Reading →
             </Link>
           </div>
         </div>
       </header>
+
+      {/* ====== NEW: Highlights section (3 points) - placed right below the header ====== */}
+      <section className="container highlights-section" aria-label="Why this book">
+        <div className="highlights-inner">
+          <div className="highlights-intro">
+            <h3 className="highlights-title text-transparent bg-clip-text bg-gradient-to-r from-teal-500 to-cyan-500">
+  Why this textbook? 🚀
+</h3>
+
+ <p className="highlights-sub-upgraded">
+  A <span className="highlight-keyword">practical and structured pathway</span> through <span className="highlight-keyword">Physical AI & Humanoid Robotics</span>, designed to take you from <span className="highlight-keyword">fundamentals</span> to <span className="highlight-keyword">real-world applications</span>.  
+  Each module is carefully curated to include <span className="highlight-keyword">hands-on labs</span>, <span className="highlight-keyword">interactive simulations</span>, and <span className="highlight-keyword">industry-relevant projects</span>, so you can learn by doing while building a strong foundation for advanced humanoid robotics development.
+</p>
+
+
+
+          </div>
+
+          <div className="highlights-grid" role="list">
+            <article className="highlight-card" role="listitem" aria-labelledby="h1">
+              <div className="highlight-icon">📘</div>
+              <h4 id="h1" className="highlight-heading">Complete Curriculum</h4>
+              <p className="highlight-text">From ROS 2 fundamentals to advanced humanoid control — structured for progressive learning.</p>
+            </article>
+
+            <article className="highlight-card" role="listitem" aria-labelledby="h2">
+              <div className="highlight-icon">🤖</div>
+              <h4 id="h2" className="highlight-heading">Hands-on Projects</h4>
+              <p className="highlight-text">Practical labs and simulation exercises that bridge theory with real robotics workflows.</p>
+            </article>
+
+            <article className="highlight-card" role="listitem" aria-labelledby="h3">
+              <div className="highlight-icon">🎯</div>
+              <h4 id="h3" className="highlight-heading">Industry Ready</h4>
+              <p className="highlight-text">Focus on tools and patterns used in research & industry — ready to take to real projects.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+      {/* ====== END Highlights section ====== */}
+
       <main>
         <div className="container" style={{marginTop: '3rem', marginBottom: '3rem'}}>
           <div className="homepage-container">
             <div>
                <h2 className="modules-title">Explore the 4-Module Learning Path</h2>
-    <p className="modules-subtitle">
-      A hands-on curriculum — from ROS 2 basics to VLA & humanoid integration.
-    </p>
+  <p className="modules-subtitle">
+  A hands-on curriculum guiding you from ROS 2 basics to VLA and humanoid robotics — with practical exercises and real-world examples.
+</p>
+
               <div className="module-grid">
                 {modules.map((module, index) => (
                   <ModuleCard key={index} {...module} />
