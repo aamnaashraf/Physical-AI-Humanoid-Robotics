@@ -41,7 +41,7 @@ export default function Home(): JSX.Element {
  <div className="highlights-box">
   <p className="highlights-sub-upgraded">
     A <span className="highlight-keyword">practical and structured pathway</span> through <span className="highlight-keyword">Physical AI & Humanoid Robotics</span>, designed to take you from <span className="highlight-keyword">fundamentals</span> to <span className="highlight-keyword">real-world applications</span>.  
-    Each module is carefully curated to include <span className="highlight-keyword">hands-on labs</span>, <span className="highlight-keyword">interactive simulations</span>, and <span className="highlight-keyword">industry-relevant projects</span>, so you can learn by doing while building a strong foundation for advanced humanoid robotics development.
+    Each module is carefully curated to include <span className="highlight-keyword">hands-on labs</span>, <span className="highlight-keyword">interactive simulations</span>, and <span className="highlight-keyword">industry-relevant projects</span>.
   </p>
 </div>
 
